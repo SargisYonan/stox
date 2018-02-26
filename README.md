@@ -1,9 +1,11 @@
 # stox
-Various stock/crypto trading tools I've written and used in the past
+Various stock/crypto trading tools I've written and used in the past. Mostly for personal use and no real interfaces, but I thought I'd share something new.
 
 # nyse
 A pure C web-scraper for gathering data on a ticker. It is fast and very lightweight. Use your own API keys.
-
+  - makes a sys call to curl() to get the server data
+  - there contains a custom CSV parser to get data from the price server
+  - set ticker main.c:12
 # crypto 
 Scrapes any of the major exchanges (set to GDAX by default : prices.py:24) -- prices.py is the main driver
   - You can modify which coin to examine, the exchange currency, and the statistical parameters to consider in the same file
