@@ -16,7 +16,7 @@ Scrapes any of the major exchanges (set to GDAX by default : prices.py:24) -- pr
       about what time of the day this occurs.
       
   - You can tie your GDAX/Coinbase account to the analyzer by placing your API keys in the access directory for automated
-    buying and selling.
+    buying and selling. I've gutted my keys out for obvious reasons.
     
     
 Good luck and have fun. 
